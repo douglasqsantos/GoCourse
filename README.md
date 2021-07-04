@@ -27,3 +27,19 @@
   - 0, -1000, 9999
 - float64
   - 10.00001, 0.00009, -100.002
+
+## Kubernetes
+
+- https://github.com/kubernetes/client-go
+- https://github.com/kubernetes/client-go/blob/master/INSTALL.md
+- https://gist.github.com/ks888/0a0e0fbf4694d7955999a6f59aa2766d
+- https://miminar.fedorapeople.org/_preview/openshift-enterprise/registry-redeploy/go_client/getting_started.html
+- https://github.com/openshift/client-go
+- https://github.com/openshift/api
+
+## References
+
+- https://medium.com/rungo/string-formatting-in-go-dd752ff7f60
+- https://golangbyexample.com/remainder-modulus-go-golang/
+- https://zetcode.com/all/#go
+- github.com/spf13/cobra
