@@ -28,6 +28,44 @@
 - float64
   - 10.00001, 0.00009, -100.002
 
+## Pointer Operations
+
+- &variable
+  - Give me the memory address of the value this variable is pointing at
+- *pointer
+  - Give me the value this memory address is pointing at
+- *person
+  - This is a type description - it means we're working with a pointer to a person
+- *pointerToPerson
+  - This is an operator - it means we want to manipulate the value the pointer is referencing
+- Rule
+  - Turn **address** into **value** with *address
+  - Turn **value** into **address** with &value
+
+## Reference vs Value Types
+
+- Value Types: Use pointers to change these things in a function
+  - int
+  - float
+  - string
+  - bool
+  - structs
+- Reference Types: Don't worry about pointers with these
+  - slices
+  - maps
+  - channels
+  - pointers
+  - functions
+
+## Initialize a new module
+
+- https://linguinecode.com/post/how-to-import-local-files-packages-in-golang
+
+```bash
+cd project
+go mod init github.com/douglasqantos/goproject
+```
+
 ## Kubernetes
 
 - https://github.com/kubernetes/client-go
