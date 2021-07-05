@@ -57,6 +57,22 @@
   - pointers
   - functions
 
+## Map vs Struct
+
+- Map
+  - All keys must be the same type
+  - All values must be the same type
+  - Keys are indexed - we can iterate over them
+  - Use to represent a collection of related properties
+  - Don't need to know all the keys at compile time
+  - Reference Type!
+- Struct
+  - Values can be of different type
+  - Keys don't support indexing
+  - Value Type!
+  - You need to know all the different fileds at compile time
+  - Use to represent a "thing" with a lot of different properties
+  
 ## Initialize a new module
 
 - https://linguinecode.com/post/how-to-import-local-files-packages-in-golang
