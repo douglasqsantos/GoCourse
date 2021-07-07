@@ -72,7 +72,33 @@
   - Value Type!
   - You need to know all the different fileds at compile time
   - Use to represent a "thing" with a lot of different properties
-  
+
+## Interfaces
+
+- Interfaces are not generic types
+  - Other languages have 'generic' types - go (famously) does not.
+- Interfaces are 'implicit'
+  - We don't manually have to say that our custom type satisfies some interface.
+- Interfaces are a contract to help us manage types
+  - GARBAGE IN -> GARBAGE OUT. If our custom type's implementation of a function is broken then interfaces won't help us!
+- Interfaces are tough. Step #1 is understanding how to read them.
+  - Understand how to read interfaces in the standard lib. Writing your own interfaces is tough and requires experience.
+
+## Concurrency vs Parallelism
+
+- Concurrency:
+  - We can have multiple threads executing code. If one thread blocks, another one is picked up and worked on.
+- Parallelism:
+  - We have multiple threads executed at the exact same time. Requires multiple CPU's
+
+## Sending Data with Channels
+
+- channel <- 5
+  - Send the value '5' into this channel
+- myNumber <- channel
+  - Wait for a value to be sent into the channel. When we get one, assign the value to 'myNumber'
+- fmt.Println(<- channel)
+  - Wait for a value to be sent into the channel. When we get one, log it out immediately.
 ## Initialize a new module
 
 - https://linguinecode.com/post/how-to-import-local-files-packages-in-golang
